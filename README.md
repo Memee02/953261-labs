@@ -2,9 +2,9 @@
 
 | | |
 |---|---|
-| **Name** | _your full name_ |
-| **Nickname** | _your nickname_ |
-| **Student ID** | _6xxxxxxxx_ |
+| **Name** | Aimmika Jankoth|
+| **Nickname** | Emmy |
+| **Student ID** | 692115047 |
 | **Section** | 701 |
 
 ## How to run
@@ -17,9 +17,7 @@ npm start
 Then open <http://localhost:3000> and <http://localhost:3000/api/me>.
 
 ## What I learned today
-
-_Write 2–3 sentences in your own words: what happens between typing a URL and seeing the page?_
+When I type a URL into the browser, the browser sends an HTTP request to the server. The Node.js server receives the request, checks the URL, and sends back a response.
 
 ## AI-use statement
-
-_Did you use an AI tool in this lab? If yes, which one and for what (e.g., "ChatGPT to explain a Git error message"). If no, write "No AI tools used."_
+ I used chat-gpt to explain how to commit and git errors
