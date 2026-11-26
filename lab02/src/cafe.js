@@ -105,3 +105,16 @@ export function namesByCategory(menu) {
     return acc;
   }, {});
 }
+
+// My own function (Part D)
+export function cheapDrinks(menu, maxPrice) {
+  return menu
+    .filter(
+      (item) =>
+        item.available &&
+        item.category === "drink" &&
+        item.price <= maxPrice
+    )
+    .sort((a, b) => a.price - b.price)
+    .map((item) => `${item.name} — ${item.price} THB`);
+}
