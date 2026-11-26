@@ -5,11 +5,11 @@
 
 // Bug 1 — the function runs, but prints undefined.
 function triple(n) {
- return n * 3;
+  return n * 3;
 }
 
 // Bug 2 — same problem, arrow-function version.
-const shout = (names) => 
+const shout = (names) =>
   names.map((name) => name.toUpperCase());
 ;
 
@@ -27,13 +27,13 @@ function addPrices(priceText1, priceText2) {
 
 // Bug 5 — gives the wrong answer. Rewrite it with reduce (no for loop).
 function average(nums) {
-const sum = nums.reduce(
-(total, n) => total + n, 
-0 // start
-);
-return sum / nums.length;
+  const sum = nums.reduce(
+    (total, n) => total + n,
+    0 
+  );
+  return sum / nums.length;
 }
-average([2, 4, 9]) 
+average([2, 4, 9])
 
 // ─────────── checks — do not edit below this line ───────────
 function check(label, run, expected) {
